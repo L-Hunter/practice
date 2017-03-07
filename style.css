@@ -1,0 +1,141 @@
+
+body {
+	font-size: 20px;
+	padding: 0;
+	margin: 0
+	font-family: 'Tinos', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+}
+.nav-bar {
+	width: 100%;
+	padding: 10px;
+}
+
+#brand {
+	display: inline;
+}
+
+.nav-bar ul {
+	float: right;
+}
+
+.nav-bar ul, li {
+	list-style-type: none;
+	display: inline;
+	padding-right: 15px;
+}
+
+.highlight {
+	color: #F69827;
+	border-color: #F69827;
+}
+
+.line {
+	width: 150px;
+}
+
+.hero-image {
+	border-top: 5px solid #F69827;
+	background: url("images/city.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 400px;
+	width: 100%;
+	position: relative;
+}
+
+.hero-content {
+	text-align: center;
+	background-color: rgba(255,255,255,.8);
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.container {
+	flex: 1;
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 400px;
+	width: 50%;
+	position: relative;
+	display: inline-block;
+}
+
+.container-content {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.bear-image {
+	background: url("images/bear.jpg");
+}
+
+.bear-content {
+	background-color: rgba(82,103,134,.8);
+}
+
+.balloon-image {
+	background: url("images/hot-air-balloon.jpg");
+}
+
+.balloon-content {
+	background-color: rgba(238,158,45,.8);
+}
+
+.hero-text {
+	padding: 50px;
+}
+
+.container-text {
+	padding: 40px;
+	color: #FFFFFF;
+}
+
+.blurb {
+	flex: 1;
+	padding: 10px 10px 0px 10px;
+/*	width: 20%;*/
+	display: inline-block;
+	border: 1px solid gray;
+	margin: 10px;
+}
+
+.blurb img {
+	width: 90%;
+}
+
+.bar {
+	background-color: #F69827;
+	color: #FFFFFF;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+}
+
+.bar h4 {
+	padding: 0px;
+	margin: 0;
+}
+
+.form-field {
+	flex: 1;
+	background-color: #EEEEEE;
+	height: 600px;
+	padding-left: 30px;       
+}
