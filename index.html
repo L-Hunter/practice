@@ -109,10 +109,10 @@
 			<div class="flex-container">
 			<div class="form-field">
 				<label for="name">NAME*</label><br>
-				<input type="text" name="name" required="required" placeholder="Name is required."><br>
+				<input type="text" name="name" required="required" placeholder="Name is required." id="name"><br>
 
 				<label for="email">EMAIL*</label><br>
-				<input type="text" name="email" required="required" placeholder="Email is required."><br>
+				<input type="text" name="email" required="required" placeholder="Email is required." id="email"><br>
 				
 				<label for="interest">I'M INTERESTED IN...</label><br>
 				<select name="interest">
@@ -123,12 +123,13 @@
 
 			<div class="form-field">
 				<label for="message">MESSAGE</label><br>
-				<input type="textarea" name="message"><br>
+				<input type="textarea" name="message" id="message"><br>
 
-				<button>Send your message</button>
+				<button id="contact-button">Send your message</button>
 			</div>
 			</div>
 		</form>
+		<h4 id="acknowledgment">.</h4>
 	</div>
 
 	<footer>
@@ -143,5 +144,6 @@
 			</ul>
 		</nav>
 	</footer>
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
