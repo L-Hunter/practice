@@ -13,6 +13,12 @@ window.onload = function(){
   	learnMore.style.color = "orange";
   })
 
+// change text background using query selector
+  var bearButton = document.querySelector("#bearButton");
+  bearButton.addEventListener("click", function(e) {
+  	bearButton.style.backgroundColor = "black";
+  })
+
 function thanks() {
   var name = document.getElementById("name").value;
   var email = document.getElementById("email").value;
