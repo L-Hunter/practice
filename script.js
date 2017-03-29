@@ -1,9 +1,17 @@
 window.onload = function(){
+
+// calls thanks function when form button clicked
   var contactButton = document.getElementById("contact-button");
   contactButton.addEventListener("click", thanks);
 
-  
+// changes text in button
+  var learnMore = document.getElementsByClassName("learnMore")[0];
+  learnMore.innerText = "New Text";
 
+// change font color on mouseover
+  learnMore.addEventListener("mouseover", function(e){
+  	learnMore.style.color = "orange";
+  })
 
 function thanks() {
   var name = document.getElementById("name").value;
@@ -16,4 +24,5 @@ function thanks() {
 
   }
 
-}
+} //closes onload
+
