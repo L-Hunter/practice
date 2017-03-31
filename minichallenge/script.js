@@ -43,4 +43,39 @@ window.onload = function(){
 		button2Text.style.display = "block";
 		button1Text.style.display = "none";
 	})
+
+	//question 2 don't hover
+	var hoverboard = document.getElementsByClassName("hoverboard")[0];
+
+	hoverboard.addEventListener("mouseover", function() {
+		alert("Hey, I told you not to hover over me!");
+	})
+
+	//question 3 keypress
+
+	var keypress = document.getElementById("keypress");
+
+	document.addEventListener("keydown", function() {
+		var x = event.keyCode;
+		var y = String.fromCharCode(x)
+		keypress.innerHTML = y;
+	})
+
+	//question 4 form checker
+ 	var submit = document.getElementById("submit");
+
+ 	submit.addEventListener("click", function() {
+	 	var formStatus = document.getElementById("form-status");
+		var password = document.getElementById("password").value;
+		var username = document.getElementById("username").value;
+		console.log(username);
+		if (password != 12345678) {
+			formStatus.innerHTML = "Oh no! Wrong password.";
+		} else if (!(/\d/.test(username))) {
+			formStatus.innerHTML = "Oh no! Add a number to that username.";
+		} else {
+			formStatus.innerHTML = "Good work on that form!";
+		}
+ 	})
+
 }

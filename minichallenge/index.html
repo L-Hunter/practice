@@ -22,15 +22,30 @@
     </div>
     <button class="accordion">Don't Hover on Me</button>
     <div class="panel">
-        <p>Create an HTML page with a large element on the page that says "Don't hover over me" inside of it. When you hover over the element, send an alert to the user that says, "Hey, I told you not to hover over me!"</p>
+        <div class="hoverboard">
+        	<div class="hoverboard-content">
+        		<h2 class="fancy">Don't hover over me</h2>
+        	</div>
+        </div>
     </div>
     <button class="accordion">Keypress Listener</button>
     <div class="panel">
-        <p>Create an HTML page with javascript that listens for a keypress. When the user presses that key, the text of the H1 should show the value of the key they have pressed. Example: If the user presses "J", the text inside the H1 should be "J".</p>
+        <h1 class="keypress-holder">You have pressed the key for: <span id="keypress"></span></h1>
     </div>
     <button class="accordion">Form Checker</button>
     <div class="panel">
-        <p>Create an HTML page with a form. The form should include inputs for a username, email, and password as well as a submit button. In a Javascript file, write code that does the following things: checks that the password is 12345678 checks that the username contains at least one number if anything is wrong, send an alert message saying "incorrect" Your page should also include an H1 tag. If the information in the form is correct, have Javascript change the text in the H1.</p>
+        <div class="form-checker">
+        	<h1 id="form-status">Your form is looking good.</h1>
+        	<form>
+        		<label for="username">Username: </label>
+        		<input type="text" name="username" id="username"><br>
+        		<label for="email">Email: </label>
+        		<input type="email" name="email"><br>
+        		<label for="password">Password: </label>
+        		<input type="text" name="password" id="password"><br>
+        		<div id="submit">Submit</div>
+        	</form>
+        </div>
     </div>
 </body>
 

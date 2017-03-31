@@ -12,7 +12,7 @@ button.accordion {
 	font-size: 18px;
 }
 
-button.accordion.active, button.accordian:hover {
+button.accordion.active, button.accordion:hover {
 	background-color: #FF6666;
 }
 
@@ -74,3 +74,48 @@ h3 {
 	float: right;
 	font-size: 20px;
 }
+
+/* question 2 don't hover */
+
+.hoverboard {
+	background-image: url('hoverboard.jpg');
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.hoverboard-content {
+	text-align: center;
+	padding-top: 240px;
+}
+
+.fancy {
+	background-color: #FF6666;
+	color: #FFFFFF;
+}
+
+/* question 3 */
+
+.keypress-holder {
+	color: #FF6666;
+	text-align: center;
+}
+
+/* question 4 */
+
+#submit {
+	border: 1px solid black;
+	width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
