@@ -1,0 +1,76 @@
+button.accordion {
+	background-color: #F88379;
+	color: #FFFFFF;
+	cursor: pointer;
+	padding: 20px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+	margin: 1px 0px;
+	font-size: 18px;
+}
+
+button.accordion.active, button.accordian:hover {
+	background-color: #FF6666;
+}
+
+button.accordion:after {
+	content: "\002B"; /*unicode for + */
+	font-size: 20px;
+	color: #FFFFFF;
+	float: right;
+	margin-left: 5px;
+}
+
+button.accordion.active:after {
+	content: "\2212"; /* unicode for - */
+}
+
+div.panel {
+	padding: 0 18px;
+	background-color: #FFFFFF;
+	display: none;
+}
+
+/* button stuff for question 1 */
+
+.button-panel {
+	width: 80%;
+	padding: 30px;
+	margin: 0 auto;
+}
+
+h3 {
+	text-align: center;
+}
+
+#button1 {
+	float: left;
+	font-size: 20px;
+}
+
+.buttonText {
+	float: left;
+	height: 70px;
+	width: 60%;
+	text-align: center;
+	font-size: 20px;
+	padding: 0px 20px 15px 20px;
+}
+
+#button1Text {
+	display: none;
+	text-align: left;
+}
+
+#button2Text {
+	display: none;
+	text-align: right;
+}
+
+#button2 {
+	float: right;
+	font-size: 20px;
+}
